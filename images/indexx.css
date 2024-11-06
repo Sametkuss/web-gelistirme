@@ -1,0 +1,43 @@
+/* PSEDUO ELEMT */
+
+p::first-line { 
+    font-weight: bold;
+    color:red;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+}
+p::first-letter{    
+    font-size: 50px;
+}
+/* Pseduo Class */
+
+ul li { 
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+ul li:first-child { /* ilk madde */
+    color: red;
+    background-color: aquamarine;
+}
+ul li:last-child{   /*son madde */
+    background-color: chocolate;
+    color:forestgreen
+}
+
+a:visited { /* ziyaret edilen adresin değişikliği için */
+    color:darkmagenta;
+}
+
+a:hover {   /* üzerine gelindiğinde değişiklik yapılması için */
+    color:saddlebrown;
+    background-color: darkgoldenrod;
+}
+a { 
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    margin-bottom: 10px;
+    
+}
